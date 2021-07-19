@@ -1,0 +1,272 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+  color: var(--font-color);
+  letter-spacing: 0.4px;
+}
+
+header {
+  height: 98vh;
+  background-image: url(/Dog/pic/60ebfb6cd6e00.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  color: white;
+  font-weight: 100;
+  padding: 20px;
+  display: inline-flex;
+}
+.logo:hover {
+  color: tomato;
+}
+
+.menu ul {
+  display: flex;
+  font-weight: lighter;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu ul li a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu input[type="text"] {
+  margin-top: 10px;
+  float: right;
+  height: 35px;
+  border-radius: 52px;
+  margin-right: 16px;
+  border: transparent;
+  font-size: 17px;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0;
+  margin: 15px;
+  background-image: url("https://img.icons8.com/material-outlined/24/000000/search--v1.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.containt {
+  padding-top: 20vh;
+  padding-left: 6vw;
+  color: white;
+}
+
+.containt-top {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 300;
+}
+
+.p-containt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.top-button {
+  padding-left: 6vw;
+  padding-top: 20px;
+}
+
+button {
+  padding: 14px;
+  height: max-content;
+  width: max-content;
+  border-color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.service-btn {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #fff;
+  width: 160px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.service-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.hire-btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #fff;
+  width: 100px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hire-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.about {
+  padding-left: 90px;
+  padding-top: 90px;
+  padding-right: 80px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+.about p {
+  color: rgb(172, 172, 172);
+}
+
+#about-photo {
+  height: 350px;
+  width: 550px;
+  padding-right: 30px;
+}
+
+.about-sec {
+  padding-top: 40px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do {
+  height: 120vh;
+  background-color: rgb(248, 245, 245);
+}
+.we-do {
+  padding-top: 70px;
+  text-align: center;
+}
+.do {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+.don {
+  margin: 15px;
+  width: 400px;
+  height: max-content;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 2px rgba(24, 23, 23, 0.1);
+  overflow: hidden;
+}
+
+.don:hover {
+  box-shadow: 0 0 8px 2px rgba(24, 23, 23, 0.2);
+}
+
+.do-img {
+  width: 100%;
+  height: auto;
+}
+
+.sed:hover {
+  color: rgb(233, 73, 15);
+}
+
+.read {
+  font-size: smaller;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  color: rgb(212, 59, 3);
+}
+.more {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.customer {
+  height: 100vh;
+}
+
+.customer-flex {
+  display: flex;
+}
+
+.happy {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.happy > div {
+  margin: 10px;
+}
+
+.cus {
+  display: flex;
+  margin: 30px 70px;
+}
+
+.cust {
+  display: flex;
+  margin-left: 20px;
+}
+
+.cus-down {
+  margin-left: 20px;
+}
+
+.people{
+  padding: 70px 70px;
+}
+
+.circle {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.mario{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.des{
+  margin: 20px;
+}
+
+.wal{
+  height: 270px;
+  width: auto;
+}
+
+.sitting{
+  height: 100vh;
+  width: auto;
+}
